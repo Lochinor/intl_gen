@@ -1,0 +1,13 @@
+targets:
+  $default:
+    builders:
+      intl_gen_runner:
+        enabled: true
+
+builders:
+  intl_gen_runner:
+    import: 'package:intl_gen_runner/intl_gen_runner.dart'
+    builder_factories: ['build']
+    build_extensions: {}
+    auto_apply: dependents
+    build_to: source

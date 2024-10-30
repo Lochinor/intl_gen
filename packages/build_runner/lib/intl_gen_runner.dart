@@ -14,5 +14,9 @@ class IntlGenBuilder extends Builder {
   }
 
   @override
-  Map<String, List<String>> get buildExtensions => {};
+  Map<String, List<String>> get buildExtensions {
+    return {
+      '.arb': ['.dart']
+    };
+  }
 }
