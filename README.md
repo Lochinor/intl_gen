@@ -4,9 +4,10 @@
 Add dependencies in `pubspec.yaml`
 ```yaml
 dev_dependencies:
-	intl_gen_runner:
-		git: https://github.com/Lochinor/intl_gen
-		path: build_runner
+  intl_gen_runner:
+    git:
+      url: https://github.com/Lochinor/intl_gen
+      path: packages/build_runner
 
 # build config
 flutter_intl:
