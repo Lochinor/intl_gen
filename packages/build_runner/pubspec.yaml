@@ -1,6 +1,6 @@
 name: intl_gen_runner
 description: The intl-utils gen wrapper.
-version: 5.8.0
+version: 0.0.2
 homepage: https://github.com/Lochinor/intl_gen
 repository: https://github.com/Lochinor/intl_gen
 documentation: https://github.com/Lochinor/intl_gen

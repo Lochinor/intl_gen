@@ -9,8 +9,8 @@ class IntlGenBuilder extends Builder {
   final generator = Generator();
 
   @override
-  FutureOr<void> build(BuildStep buildStep) {
-    return generator.generateAsync();
+  FutureOr<void> build(BuildStep buildStep) async {
+    await generator.generateAsync();
   }
 
   @override
